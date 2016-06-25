@@ -1,0 +1,148 @@
+.tree-menu ul { list-style: none; }
+
+.tree-menu > ul { padding: 0; }
+
+.tree-menu a {
+    /*background: linear-gradient(90deg, #20DE13 52%, #efefef 27%);*/
+    display: block;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #efefef;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    color: #002888;
+    -moz-transition: background-color 0.25s linear;
+    -webkit-transition: background-color 0.25s linear;
+    -o-transition: background-color 0.25s linear;
+    transition: background-color 0.25s linear;
+    -moz-transition-delay: 0.15s;
+    -webkit-transition-delay: 0.15s;
+    -o-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.tree-menu a:hover {
+    color: #f53d3e;
+    -moz-transition: background-color 0.1s linear;
+    -webkit-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+
+.tree-menu li{
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.tree-menu li:hover{
+    background: #FFFFF8;
+}
+.tree-menu a button{
+    display: none;
+}
+
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 26px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 5px 5px 5px 25px;
+    margin: 3px;
+}
+
+.tree-menu a:hover > button{
+    display: block;
+}
+
+.tree-menu .active > a:hover,
+.tree-menu .selected > a,
+.tree-menu a:hover { background-color: #c6cdde; }
+
+.tree-menu .selected > a {
+    color: #f53d3e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tree-menu .active > a { background-color: #e1e3e9; }
+
+.tree-menu .closed > a,
+.tree-menu .opened > a {
+    padding-left: 24px;
+    background-position: 4px 8px;
+    background-repeat: no-repeat;
+}
+
+.tree-menu .closed > a { background-image: url(../images/icon-expand.gif); }
+
+.tree-menu .opened > a { background-image: url(../images/icon-collapse.gif); }
+
+.right{
+    float: right;
+    padding: 3px 10px;
+    margin: 0;
+}
+.taskshow{
+    display: inline-block;
+}
+
+.progression{
+    width: 100%;
+    background: #A78484;
+    height: 20px;
+    margin-top: -3px;
+    margin-bottom: 0px;
+
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.progression p{
+    padding: 0 4px;
+}
+
+.well{
+    margin: 0 0 5px 0;
+}
+
+.targets li{
+    width: 100%;
+    line-height: 28px;
+    float: left;
+    padding: 5px;
+}
+
+.targets li:hover{
+    background: #EFEFEF;
+}
+
+.targets .finished{
+    text-decoration: line-through;
+}
+.file img{
+    max-width: 50px;
+}
+
+.file{
+    float: left;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 1px;
+    text-align: center;
+    margin: 5px;
+
+}
+/*****************************************************/
+
+
+
+
+
